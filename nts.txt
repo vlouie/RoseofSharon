@@ -1,0 +1,18 @@
+Notes to self:
+=============
+[x] fix up table generation js (have 1 function take in the table? based on table id -- to be fixed -- use corresponding csv file & use it)
+[x] dummy csv's
+[x] FIX BROKEN IMAGES GRRRRR
+[x] photoshop cup out of corsage picture -.-
+[x] add X to lightbox for close?--> too many logistics to think about; compromise with some text
+[ ] ORDER FORM MAGIC
+[x] table content styling
+[x] consistent button CSS (use class .button for order buttons + input on orderform)
+[x] lightbox on img click
+[ ] fix slideshow
+[ ] content
+[x] use subtle pattern for background???
+[ ] add loader images?
+--> to table retrieval GET?
+--> to large resize lightbox?
+--> on success hide it? on click, show it?

@@ -1,0 +1,3 @@
+Resizing: 
+large_resize = decluttered --> 50% --> 75% --> 75% --> 75%
+small_resize = large_resize --> 50%
