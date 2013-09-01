@@ -4,9 +4,11 @@
 }
 
 body{
-	background-color:#e6e6e6;
 	font-family: Helvetica, 'Myriad', Arial, sans-serif;
-	background: url('/img/textured_paper.png') repeat;
+  font-size: 17px;
+  background-color: #fff;
+  margin: 0;
+	/*background: url('/img/textured_paper.png') repeat;*/
 }
 
 header{
@@ -80,13 +82,20 @@ table > tbody > tr > td > img {
   box-shadow: rgba(0,0,0,0.3) 0 5px 3px;
 }
 
+#pageview{
+  margin: auto;
+	/*background: url('/img/ricepaper2.png') repeat;*/
+	background: url('/img/green_dust_scratch.png') repeat;
+  background-color: #7feb61;
+}
+
 #head{
   margin: 0;
-  padding: 0;
+  padding: 1em 0 0;
 }
 
 #logo{
-  /*width: 30%;*/
+  width: 30%;
   margin-right:10px;
   display: inline-block;
   vertical-align:bottom;
@@ -97,6 +106,7 @@ table > tbody > tr > td > img {
   float:left;
   margin-top:5px;
   margin-right:20px;
+  width: 6%;
 }
 
 #topnav {
@@ -106,8 +116,9 @@ table > tbody > tr > td > img {
   vertical-align:bottom;
   border: 1px solid #eee;
   border-radius: 4px;
+  background-color: #123123;
 
-  background-image: linear-gradient(bottom, rgb(125,125,125) 48%, rgb(128,125,128) 74%, rgb(158,158,158) 87%);
+ /* background-image: linear-gradient(bottom, rgb(125,125,125) 48%, rgb(128,125,128) 74%, rgb(158,158,158) 87%);
   background-image: -o-linear-gradient(bottom, rgb(125,125,125) 48%, rgb(128,125,128) 74%, rgb(158,158,158) 87%);
   background-image: -moz-linear-gradient(bottom, rgb(125,125,125) 48%, rgb(128,125,128) 74%, rgb(158,158,158) 87%);
   background-image: -webkit-linear-gradient(bottom, rgb(125,125,125) 48%, rgb(128,125,128) 74%, rgb(158,158,158) 87%);
@@ -120,7 +131,7 @@ table > tbody > tr > td > img {
 	color-stop(0.48, rgb(125,125,125)),
 	color-stop(0.74, rgb(128,125,128)),
 	color-stop(0.87, rgb(158,158,158))
-  );
+  );*/
 }
 
 #topnav ul{
@@ -135,6 +146,10 @@ table > tbody > tr > td > img {
   width:33.33333333%;
   text-align:center;
   border-right: 1px solid #aaaaaa;
+}
+
+#topnav ul li:last-child {
+  border-right: none;
 }
 
 #topnav a{
@@ -160,21 +175,9 @@ nav{
   color: #fff;
   font-weight: bold;
   padding: 0.5em;
-  border: 1px solid #fff;
+  border: 1px solid #36c210;
   border-radius: 20px;
-  background-image: linear-gradient(bottom, rgb(125,125,125) 24%, rgb(189,189,189) 62%);
-  background-image: -o-linear-gradient(bottom, rgb(125,125,125) 24%, rgb(189,189,189) 62%);
-  background-image: -moz-linear-gradient(bottom, rgb(125,125,125) 24%, rgb(189,189,189) 62%);
-  background-image: -webkit-linear-gradient(bottom, rgb(125,125,125) 24%, rgb(189,189,189) 62%);
-  background-image: -ms-linear-gradient(bottom, rgb(125,125,125) 24%, rgb(189,189,189) 62%);
-
-  background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	left top,
-	color-stop(0.24, rgb(125,125,125)),
-	color-stop(0.62, rgb(189,189,189))
-  );
+  background: #7feb61;
 }
 
 button:active{
@@ -192,7 +195,7 @@ button:active{
 
 #sidenav h3{
   padding-left:1em;
-  background: #7d7d7d;
+  background: #123123;
   color:#fff;
   margin-top:0;
   margin-bottom:0;
@@ -245,6 +248,14 @@ button:active{
 
 #content h3{
   border-bottom: 1px solid #000;
+}
+
+.priceWarning{
+  border: 1px solid silver;
+  border-radius: 4px;
+  color: red;
+  text-align: center;
+  padding: 1em;
 }
 
 #copyright{

@@ -9,7 +9,7 @@
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/lightbox.js"></script>
+<script src="js/view.js"></script>
 </head>
 <body>
 <div id="lightbox">
@@ -19,6 +19,7 @@
     <div id="close">[click to close]</div>
   </div>
 </div>
+<div id="pageview">
 <header>
 	<div id="head">
 		<a href="/index.php">
@@ -29,7 +30,7 @@
 		<!-- Top navigation for site going across -->
 		<div id="topnav">
 			<ul>
-				<li><a href="/intro.php">Intro</a>
+				<li><a href="/about.php">About</a>
 				<li><a href="/order.php">Ordering</a>
 				<li><a href="/contact.php">Contact</a>
 			</ul>

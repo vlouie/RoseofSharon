@@ -1,15 +1,15 @@
 Name,Price,Img,ID
-christmas1,12,20101123395,chr01
-christmas2,13,20101201489,chr02
-christmas3,30,20101201490,chr03
-christmas4,20,20101201496,chr04
-christmas5,20,20101201497,chr05
-christmas6,20,20101202508,chr06
-christmas7,20,20101202518,chr07
-christmas8,20,20101211532,chr08
-christmas9,20,20101211537,chr09
-christmas10,20,20101220594,chr10
-christmas11,20,20101221601,chr11
-christmas12,20,20101223649,chr12
-christmas13,20,20101223650,chr13
-christmas14,20,20101223653,chr14
+Jingle Bell Rock  E-MP,50,20101123395,chr01
+Seasonal Greetings C-TC1,35,20101201489,chr02
+Seasonal Greetings C-TC2,35,20101201490,chr03
+Joy to the World D-RP1,40,20101201496,chr04
+Joy to the World C-RP,35,20101201497,chr05
+Jingle Bell Rock F-NP1,60,20101202508,chr06
+Jingle Bell Rock G-NP,70,20101202518,chr07
+The First Noel C-RH,35,20101211532,chr08
+Jingle Bell Rock F-NP2,60,20101211537,chr09
+Seasonal Greetings F-MC1,60,20101220594,chr10
+Seasonal Greetings F-MC2,60,20101221601,chr11
+Joy to the World D-RP2,40,20101223649,chr12
+Jingle Bell Rock E-RP,50,20101223650,chr13
+Seasonal Greetings F-MC,60,20101223653,chr14

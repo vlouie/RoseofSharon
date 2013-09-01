@@ -7,7 +7,7 @@ Located in Vancouver, BC, certified CAFA florist, <b><i>Rose of Sharon Floral Ar
 <p>
 <b><i>Rose of Sharon Floral Arts</b></i> is a home-based business. We treat every client as an individual and we also provide clients with the best possible price and a unique personal service. Don't hesitate to contact us if you would like a <b>complimentary consultation</b> about your upcoming wedding or special event.
 <p>
-<h4>Services</h4>
+<b>Services</b>
 <ul>
 <li>Our Passion: happy clients = happy <b><i>Rose of Sharon Floral Arts</b></i>
 <li>Floral design for all kinds of events and occasions
@@ -16,7 +16,7 @@ Located in Vancouver, BC, certified CAFA florist, <b><i>Rose of Sharon Floral Ar
 <li>Dynamic and eye-catching corporate business floral arrangements
 <li>Requests for custom designs are welcome
 </ul>
-<b>- all within budget</b>
+<b>-- all within budget</b>
 </div>
 <?php
 include('footer.php');

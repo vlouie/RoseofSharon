@@ -8,12 +8,13 @@ include('header.php');
   });
 </script>
 <div id="content">
-Click the picture for a better look!
 <h3>Weddings</h3>
+<!-- insert partial image 
 <table id="wedding" data-csv="wedding">
   <tbody>
   </tbody>
-</table>
+</table> -->
+In order to create the perfect wedding experience for you, we price our products and arrangements according to the unique nature of the event.
 </div>
 <?php
 include('footer.php');
