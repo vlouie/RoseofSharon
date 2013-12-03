@@ -14,7 +14,7 @@ Click the picture for a better look!
   <tbody>
   </tbody>
 </table>
-<p class="priceWarning"><b>Note:</b> Prices subject to change.</b></p>
+<p class="priceWarning"><b>Note:</b> Prices subject to change. Arrangements may differ from picture.</p>
 </div>
 <?php
 include('footer.php');

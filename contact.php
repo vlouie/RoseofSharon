@@ -3,7 +3,7 @@ include('header.php');
 ?>
 <div id="content">
 <h3>Contact</h3>
-We understand that weddings can be expensive and stresful, but with <b><i>Rose of Sharon Floral Arts</b></i>, we put special attention into each and every floral arrangement to ensure that your wedding day is as perfect as you've always imagined.
+We understand that weddings can be expensive and stressful, but with <b><i>Rose of Sharon Floral Arts</b></i>, we put special attention into each and every floral arrangement to ensure that your wedding day is as perfect as you've always imagined.
 <p>
 Small budget? No worry, we can work with any budget, it does not matter how large or small the event.
 <p>
