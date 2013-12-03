@@ -249,16 +249,13 @@ button:active{
 }
 
 #content{
-  /*border: 1px solid #eee;*/
-  /*border-radius: 4px;*/
-border-style: solid;
-border-width: 28px 40px 27px 27px;
--moz-border-image: url(img/wavy-border.png) 28 40 27 27 stretch;
--webkit-border-image: url(img/wavy-border.png) 28 40 27 27 stretch;
--o-border-image: url(img/wavy-border.png) 28 40 27 27 stretch;
-border-image: url(img/wavy-border.png) 28 40 27 27 fill stretch;
-background-clip:padding-box;
-
+  border-style: solid;
+  border-width: 23px 25px 76px;
+  -moz-border-image: url(img/border.png) 23 25 76 stretch;
+  -webkit-border-image: url(img/border.png) 23 25 76 stretch;
+  -o-border-image: url(img/border.png) 23 25 76 stretch;
+  border-image: url(img/border.png) 23 25 76 stretch;
+  background-clip:padding-box;
   float: left;
   width: 930px;
   padding: 2em;
