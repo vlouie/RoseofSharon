@@ -9,13 +9,13 @@ function tablize ( element, callback ){
 	  for (var i = 1; i < rowArray.length-1; i++){
 		entry = rowArray[i].split(",");
 		if (i % 3 == 1){
-		  	$(selector1).append("<tr><td><img src='/img/" + table.id + "/small_resize/" + entry[2] + ".jpg' data-id='"+ entry[2] +"'><br /><b>Name:</b> " + entry[0] + "<br /><b>Price:</b> $" + parseInt(entry[1]).toFixed(2) + "<br /><a href='/order.php?id=" + entry[3] +"'><button class='button'>Order</button></a></td>");
+		  	$(selector1).append("<tr><td><img src='/img/" + table.id + "/small_resize/" + entry[2] + ".jpg' data-id='"+ entry[2] +"'><br /><b>Name:</b> " + entry[0] + "<br /><b>Price:</b> $" + parseInt(entry[1]).toFixed(2) + "<br /><a href='/order.php?type=" + table.id + "&id=" + entry[3] +"'><button class='button'>Order</button></a></td>");
 		  }
 		  else if (i%3 == 2){
-	  		$(selector2).append("<td><img src='/img/"+ table.id + "/small_resize/" + entry[2] + ".jpg' data-id='"+ entry[2]+"'><br /><b>Name:</b> " + entry[0] + "<br /><b>Price:</b> $" + parseInt(entry[1]).toFixed(2) + "<br /><a href='/order.php?id=" + entry[3] +"'><button class='button'>Order</button></a></td></tr>");
+	  		$(selector2).append("<td><img src='/img/"+ table.id + "/small_resize/" + entry[2] + ".jpg' data-id='"+ entry[2]+"'><br /><b>Name:</b> " + entry[0] + "<br /><b>Price:</b> $" + parseInt(entry[1]).toFixed(2) + "<br /><a href='/order.php?type=" + table.id + "&id=" + entry[3] +"'><button class='button'>Order</button></a></td></tr>");
 		  }
 		  else if (i%3 ==0){
-			  $(selector2).append("<td><img src='/img/" + table.id + "/small_resize/" + entry[2] + ".jpg' data-id='"+ entry[2]+ "'><br /><b>Name:</b> " + entry[0] + "<br /><b>Price:</b> $" + parseInt(entry[1]).toFixed(2) + "<br /><a href='/order.php?id=" + entry[3] +"'><button class='button'>Order</button></a></td>");
+			  $(selector2).append("<td><img src='/img/" + table.id + "/small_resize/" + entry[2] + ".jpg' data-id='"+ entry[2]+ "'><br /><b>Name:</b> " + entry[0] + "<br /><b>Price:</b> $" + parseInt(entry[1]).toFixed(2) + "<br /><a href='/order.php?type=" + table.id + "&id=" + entry[3] +"'><button class='button'>Order</button></a></td>");
 		  }
 	  }
 
