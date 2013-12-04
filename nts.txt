@@ -9,10 +9,15 @@ Notes to self:
 [x] table content styling
 [x] consistent button CSS (use class .button for order buttons + input on orderform)
 [x] lightbox on img click
-[ ] fix slideshow
+[x] fix slideshow
 [ ] content
 [x] use subtle pattern for background???
 [ ] add loader images?
 --> to table retrieval GET?
 --> to large resize lightbox?
 --> on success hide it? on click, show it?
+
+Possible future endeavours:
+==========================
+[ ] SQL database (only if there are a great number of products & there is a schema that makes sense)
+[ ] PHP shopping cart for products (depends on userbase and number of products; not sure if nature of product lends itself to this)
