@@ -39,6 +39,9 @@
 </header>
 <div id="body">
 <nav>
+	<div id="navflower">
+		<img src="img/nav-flower.png" />
+	</div>
 <!-- Vertical navigation for products -->
 	<div id="sidenav">
 		<h3>Products</h3>
