@@ -198,6 +198,10 @@ table > tbody > tr > td > img {
     text-align: center;
 }
 
+#orderWarning{
+    color: #ff0000;
+}
+
 nav{
   clear: both;
 }

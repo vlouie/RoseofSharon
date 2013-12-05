@@ -44,6 +44,7 @@ if(isset($_POST['submit'])) {
       <br>
       <input class="button" id="orderbutton" name="submit" type="submit" value="Place Order">
     </form>
+    <p id="orderWarning">Prices subject to change.</p>
   </div>
   <div id="orderImage">
   </div>

@@ -1,6 +1,7 @@
 Notes to self:
 =============
 [x] ORDER FORM MAGIC
+[ ] confirmation/success page for orders
 [ ] fix pageView sizing (view.js)
 --> if scrollbar (doc.height > window.height) then pageView.width - 20px (1660px instead of 1680px)
 [ ] content
