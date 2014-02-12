@@ -30,7 +30,7 @@
 		<!-- Top navigation for site going across -->
 		<div id="topnav">
 			<ul>
-				<li><a href="/about.php">About</a>
+				<li><a href="/about.php">About Us</a>
 				<li><a href="/order.php">Ordering</a>
 				<li><a href="/contact.php">Contact</a>
 			</ul>
