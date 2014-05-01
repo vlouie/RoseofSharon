@@ -9,6 +9,10 @@ body{
   background-color: #fff;
   margin: 0;
 	/*background: url('/img/textured_paper.png') repeat;*/
+	background: url('/img/green_dust_scratch.png') repeat;
+  background-color: #7feb61;
+  border-right: 4px solid #fff;
+  border-left: 4px solid #fff;
 }
 
 header{
@@ -95,6 +99,7 @@ table > tbody > tr > td > img {
 	background: url('/img/green_dust_scratch.png') repeat;
   background-color: #7feb61;
   z-index:-10;
+  width: 90%;
 }
 
 #head{
@@ -433,9 +438,20 @@ a:hover.slidesjs-stop {
   body {
 	padding-left: 20px;
 	padding-right: 20px;
+	font-size:24px;
+	width: 100%;
   }
   .container {
 	width: auto
+  }
+  #body{
+	  width: 100%;
+  }
+  #content{
+	  width: 800px;
+  }
+  #sidenav{
+	  width: 330px;
   }
 }
 

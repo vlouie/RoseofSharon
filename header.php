@@ -10,7 +10,7 @@
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/view.js"></script>
+<!--<script src="js/view.js"></script> -->
 </head>
 <body>
 <div id="lightbox">
@@ -20,7 +20,7 @@
     <div id="close">[click to close]</div>
   </div>
 </div>
-<div id="pageview">
+<!--<div id="pageview"> -->
 <header>
 	<div id="head">
 		<a href="/index.php">

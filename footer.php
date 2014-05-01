@@ -1,7 +1,7 @@
 <div id="copyright">
 &copy;2013 Victoria Louie
 </div>
-</div>
+<!--</div> -->
 </div>
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
