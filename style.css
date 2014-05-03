@@ -9,8 +9,7 @@ html{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background: url('/img/green_dust_scratch.png') repeat;
+  background-size: cover; background: url('/img/green_dust_scratch.png') repeat;
   background-color: #7feb61;
   background-size: 100% 100%;
 }
@@ -456,7 +455,7 @@ a:hover.slidesjs-stop {
 	width: auto
   }
   #body{
-	  width: 100%;
+	width: 100%;
   }
   #content{
 	  width: 800px;
@@ -465,13 +464,16 @@ a:hover.slidesjs-stop {
 	  width: 330px;
   }
   #logo{
-    width: 500%;/* ???? */
+    width: 100%;/* ???? */
   }
   #badge{
-    width: 100%;
+    width: 50%;
   }
   #topnav{
     width: 100%;
+  }
+  #copyright{
+   width: 150%;
   }
 }
 
