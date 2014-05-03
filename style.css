@@ -487,6 +487,15 @@ a:hover.slidesjs-stop {
   .container {
 	width: 279px
   }
+  #logo{
+    width: 150%;
+  }
+  #badge{
+    width: 100%;
+  }
+  #topnav{
+    width: 80%;
+  }
 }
 
 /* For larger displays */
