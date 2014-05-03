@@ -12,11 +12,8 @@ html{
   background-size: cover;
   background: url('/img/green_dust_scratch.png') repeat;
   background-color: #7feb61;
-  border-right: 4px solid #fff;
-  border-left: 4px solid #fff;
   background-size: 100% 100%;
 }
-
 
 body{
   font-family: Helvetica, 'Myriad', Arial, sans-serif;
@@ -453,6 +450,7 @@ a:hover.slidesjs-stop {
 	padding-right: 20px;
 	font-size:24px;
 	width: 100%;
+	height: 100%;
   }
   .container {
 	width: auto
@@ -465,6 +463,15 @@ a:hover.slidesjs-stop {
   }
   #sidenav{
 	  width: 330px;
+  }
+  #logo{
+    width: 150%;
+  }
+  #badge{
+    width: 100%;
+  }
+  #topnav{
+    width: 80%;
   }
 }
 
