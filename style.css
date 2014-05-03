@@ -465,13 +465,13 @@ a:hover.slidesjs-stop {
 	  width: 330px;
   }
   #logo{
-    width: 150%;
+    width: 500%;/* ???? */
   }
   #badge{
     width: 100%;
   }
   #topnav{
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -494,7 +494,7 @@ a:hover.slidesjs-stop {
     width: 100%;
   }
   #topnav{
-    width: 80%;
+    width: 100%;
   }
 }
 
