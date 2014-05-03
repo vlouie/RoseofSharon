@@ -134,6 +134,7 @@ table > tbody > tr > td > img {
   border: 1px solid #eee;
   border-radius: 4px;
   background-color: #123123;
+  font-weight: bold;
 
  /* background-image: linear-gradient(bottom, rgb(125,125,125) 48%, rgb(128,125,128) 74%, rgb(158,158,158) 87%);
   background-image: -o-linear-gradient(bottom, rgb(125,125,125) 48%, rgb(128,125,128) 74%, rgb(158,158,158) 87%);

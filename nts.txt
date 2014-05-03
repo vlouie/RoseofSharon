@@ -1,8 +1,7 @@
 Notes to self:
 =============
-[x] ORDER FORM MAGIC
 [ ] confirmation/success page for orders
-[ ] fix pageView sizing (view.js)
+[?] fix pageView sizing (view.js)
 --> if scrollbar (doc.height > window.height) then pageView.width - 20px (1660px instead of 1680px)
 [ ] content
 --> index
@@ -13,6 +12,14 @@ Notes to self:
 --> to table retrieval GET?
 --> to large resize lightbox?
 --> on success hide it? on click, show it?
+[ ] fix scaling/green background
+[x] rose of sharon watermark on left to replace current flower
+[ ] increase size of logo
+[ ] increase font size
+[ ] wider top nav bar
+[ ] wait on email for Weddings
+[ ] bigger slideshow pic
+[ ] fix scaling for mobile (tablet esp)
 
 Possible future endeavours:
 ==========================
