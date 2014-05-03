@@ -11,7 +11,6 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <!--<script src="js/view.js"></script> -->
 </head>
-<div id="wrapper">
 <body>
 <div id="lightbox">
   <div id="bg_overlay"></div>

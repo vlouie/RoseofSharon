@@ -19,5 +19,4 @@ class="statcounter" src="http://c.statcounter.com/9446598/0/62362ce7/1/"
 alt="web statistics"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
 </body>
-</div>
 </html>
