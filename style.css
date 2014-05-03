@@ -70,8 +70,8 @@ table > tbody > tr > td > img {
 #navflower{
   position:absolute;
   z-index:0;
-  left:-120px;
-  top:-50px;
+  left:-130px;
+  top:-30px;
 }
 
 #container {
