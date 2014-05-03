@@ -448,7 +448,7 @@ a:hover.slidesjs-stop {
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size:24px;
-	width: 100%;
+	width: 200%;
 	height: 100%;
   }
   .container {
@@ -467,7 +467,7 @@ a:hover.slidesjs-stop {
     width: 100%;/* ???? */
   }
   #badge{
-    width: 10%;
+    width: 20%;
   }
   #topnav{
     width: 80%;
