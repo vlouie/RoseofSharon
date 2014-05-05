@@ -459,6 +459,7 @@ a:hover.slidesjs-stop {
   }
   #content{
 	  width: 800px;
+	  left: 230px;
   }
   #sidenav{
 	  width: 330px;
