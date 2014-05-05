@@ -496,6 +496,9 @@ a:hover.slidesjs-stop {
 
 /* For smaller displays like laptops */
 @media (min-width: 768px) and (max-width: 979px) {
+  header{
+    width: 100%;
+  }
   .container {
 	width: 279px
   }
