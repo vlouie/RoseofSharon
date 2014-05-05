@@ -1,6 +1,13 @@
 <?php
 include('header.php');
 ?>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
+
+<!-- 
 <script src="js/jquery.slides.min.js"></script>
  <script>
     $(function() {
@@ -16,19 +23,23 @@ include('header.php');
       });
     });
   </script>
+-->
 <!-- Content here -->
 <div id="content">
   <h1>Rose of Sharon Floral Arts</h1>
-	<div class="container">
-		<div id="slides">
-		  <img src="img/christmas/large_resize/20101201489.jpg" alt="">
-		  <img src="img/easter/large_resize/201104151333.jpg" alt="">
-		  <img src="img/mothers_day/large_resize/201105031827.jpg" alt="">
-		  <img src="img/thanksgiving/large_resize/20101003043.jpg" alt="">
-		  <img src="img/corsage/large_resize/DSCN4752.jpg" alt="">
-		  <img src="img/special_order/large_resize/DSCN4927.jpg" alt="">
-		</div>
-	</div>
+  <div id ="slider" class="nivoSlider">
+    <img src="img/slide01.jpg" alt="" />
+    <img src="img/slide02.jpg" alt="" />
+    <img src="img/slide03.jpg" alt="" />
+    <img src="img/slide04.jpg" alt="" />
+    <img src="img/slide05.jpg" alt="" />
+    <img src="img/slide06.jpg" alt="" />
+    <img src="img/slide07.jpg" alt="" />
+    <img src="img/slide08.jpg" alt="" />
+    <img src="img/slide09.jpg" alt="" />
+  </div>
+	<!--<div class="container">
+	</div>-->
 	<h3>Welcome</h3>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate est porta enim mollis, aliquet vehicula magna dignissim. Etiam eget libero at ligula consectetur rutrum ac vitae mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis commodo sapien at consequat euismod. Praesent eu mauris ultricies, ornare massa posuere, facilisis purus. Ut consequat urna non rhoncus condimentum. Cras dapibus est nec erat convallis, at imperdiet sapien mollis. Proin sodales erat in augue tincidunt mattis. Vivamus sed velit lorem. Mauris ac rutrum elit. Aliquam tempor ipsum vitae nunc vestibulum, id varius eros convallis. Donec fringilla neque ut aliquet vulputate. Morbi a dui in tellus rutrum volutpat quis ac elit. Sed dignissim vestibulum neque, ut posuere urna vestibulum quis. Nam feugiat mi libero. Morbi vitae dictum nisl.
 

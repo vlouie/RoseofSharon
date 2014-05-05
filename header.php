@@ -8,9 +8,10 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<!--<script src="js/view.js"></script> -->
+<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="lightbox">
@@ -26,7 +27,6 @@
 		<a href="/index.php">
       <img id="logo" src="img/logo_medium.png" />
       <img id="badge" src="img/badge_small.png" />
-      <!--<h1 style="float:left;margin-right:1em;margin-top:0.2em;color:#000;">[flower shop]</h1>-->
 		</a>
 		<!-- Top navigation for site going across -->
 		<div id="topnav">
