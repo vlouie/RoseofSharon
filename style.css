@@ -450,6 +450,9 @@ a:hover.slidesjs-stop {
 
 /* For tablets & smart phones */
 @media (max-width: 767px) {
+  header{
+  	width: 100%;
+  }
   body {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -463,15 +466,12 @@ a:hover.slidesjs-stop {
   #body{
 	width: 100%;
   }
-  #header{
-  	width: 100%;
-  }
   #content{
-	width: 780px;
-	left: 300px;
+	width: 785px;
+	left: 290px;
   }
   #sidenav{
-	width: 330px;
+	width: 310px;
   }
   #logo{
     width: 42%;
