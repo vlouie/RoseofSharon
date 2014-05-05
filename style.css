@@ -467,13 +467,13 @@ a:hover.slidesjs-stop {
     width: 50%;/* ???? */
   }
   #badge{
-    width: 25%;
+    width: 20%;
   }
   #topnav{
     width: 70%;
   }
   #copyright{
-   width: 200%;
+   width: 100%;
   }
 }
 
