@@ -480,6 +480,7 @@ a:hover.slidesjs-stop {
   }
   #content h1{
   	font-size:1em;
+	width: 100%;
   }
   #sidenav{
 	width: 283px;
