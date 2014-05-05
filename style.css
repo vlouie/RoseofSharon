@@ -476,10 +476,13 @@ a:hover.slidesjs-stop {
   }
   #content{
 	width: 780px;
-	left: 290px;
+	left: 280px;
+  }
+  #content h1{
+  	font-size:1em;
   }
   #sidenav{
-	width: 285px;
+	width: 283px;
 	left: 0px;
   }
   #logo{
