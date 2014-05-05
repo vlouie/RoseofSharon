@@ -8,6 +8,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <!--<script src="js/view.js"></script> -->
 </head>

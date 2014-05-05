@@ -314,6 +314,12 @@ button:active{
   margin-top:3px;
 }
 
+#content h1{
+  margin-top: 0;
+  font-family: 'Dawning of a New Day', cursive;
+  font-weight: bold;
+}
+
 .priceWarning{
   border: 1px solid silver;
   border-radius: 4px;
@@ -457,18 +463,21 @@ a:hover.slidesjs-stop {
   #body{
 	width: 100%;
   }
+  #header{
+  	width: 100%;
+  }
   #content{
-	  width: 800px;
-	  left: 240px;
+	width: 780px;
+	left: 300px;
   }
   #sidenav{
-	  width: 330px;
+	width: 330px;
   }
   #logo{
     width: 42%;
   }
   #badge{
-    width: 6%;
+    width: 8%;
   }
   #topnav{
     width: 50%;
