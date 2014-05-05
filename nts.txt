@@ -1,7 +1,7 @@
 Notes to self:
 =============
 [ ] confirmation/success page for orders
-[?] fix pageView sizing (view.js)
+[x] fix pageView sizing (view.js)
 --> if scrollbar (doc.height > window.height) then pageView.width - 20px (1660px instead of 1680px)
 [ ] content
 --> index
@@ -12,14 +12,14 @@ Notes to self:
 --> to table retrieval GET?
 --> to large resize lightbox?
 --> on success hide it? on click, show it?
-[ ] fix scaling/green background
+[x] fix scaling/green background
 [x] rose of sharon watermark on left to replace current flower
-[ ] increase size of logo
-[ ] increase font size
-[ ] wider top nav bar
+[x] increase size of logo
+[x] increase font size
+[x] wider top nav bar
 [ ] wait on email for Weddings
 [ ] bigger slideshow pic
-[ ] fix scaling for mobile (tablet esp)
+[x] fix scaling for mobile (tablet esp)
 
 Possible future endeavours:
 ==========================
