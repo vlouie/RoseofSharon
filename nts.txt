@@ -15,10 +15,10 @@ Notes to self:
 [x] fix scaling/green background
 [x] rose of sharon watermark on left to replace current flower
 [x] increase size of logo
-[x] increase font size
+[ ] increase font size (mobile especially!!!!!)
 [x] wider top nav bar
 [ ] wait on email for Weddings
-[ ] bigger slideshow pic
+[x] bigger slideshow pic
 [x] fix scaling for mobile (tablet esp)
 
 Possible future endeavours:
