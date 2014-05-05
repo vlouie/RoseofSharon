@@ -464,13 +464,13 @@ a:hover.slidesjs-stop {
 	  width: 330px;
   }
   #logo{
-    width: 50%;/* ???? */
+    width: 40%;
   }
   #badge{
     width: 10%;
   }
   #topnav{
-    width: 70%;
+    width: 50%;
   }
   #copyright{
    width: 100%;
