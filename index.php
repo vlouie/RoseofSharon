@@ -3,7 +3,14 @@ include('header.php');
 ?>
 <script type="text/javascript">
 $(window).load(function() {
-    $('#slider').nivoSlider();
+    $('#slider').nivoSlider({
+      animSpeed: 500,
+      pauseTime: 3000,
+      directionNav: true,
+      controlNav: true,
+      prevText: "<<",
+      nextText: ">>"
+    });
 });
 </script>
 
@@ -27,16 +34,19 @@ $(window).load(function() {
 <!-- Content here -->
 <div id="content">
   <h1>Rose of Sharon Floral Arts</h1>
-  <div id ="slider" class="nivoSlider">
-    <img src="img/slide01.jpg" alt="" />
-    <img src="img/slide02.jpg" alt="" />
-    <img src="img/slide03.jpg" alt="" />
-    <img src="img/slide04.jpg" alt="" />
-    <img src="img/slide05.jpg" alt="" />
-    <img src="img/slide06.jpg" alt="" />
-    <img src="img/slide07.jpg" alt="" />
-    <img src="img/slide08.jpg" alt="" />
-    <img src="img/slide09.jpg" alt="" />
+  <div class="slider-wrapper theme-default">
+    <div class="ribbon"></div>
+    <div id ="slider" class="nivoSlider">
+      <img src="img/slide01.jpg" alt="" />
+      <img src="img/slide02.jpg" alt="" />
+      <img src="img/slide03.jpg" alt="" />
+      <img src="img/slide04.jpg" alt="" />
+      <img src="img/slide05.jpg" alt="" />
+      <img src="img/slide06.jpg" alt="" />
+      <img src="img/slide07.jpg" alt="" />
+      <img src="img/slide08.jpg" alt="" />
+      <img src="img/slide09.jpg" alt="" />
+    </div>
   </div>
 	<!--<div class="container">
 	</div>-->
