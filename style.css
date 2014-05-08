@@ -481,6 +481,8 @@ a:hover.slidesjs-stop {
   }
   .inputBox {
     height: 2em;
+	font-size:24px;
+	margin-bottom:1em;
   }
   .order {
     width: 200px;
@@ -490,7 +492,7 @@ a:hover.slidesjs-stop {
   }
   .button {
     padding: 1em;
-    font-size: 2em;
+    font-size: 24px;
   }
   #body{
 	width: 100%;
