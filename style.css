@@ -504,6 +504,12 @@ a:hover.slidesjs-stop {
   #topnav{
     width: 50%;
   }
+  #formDiv{
+  	width: 50%;
+  }
+  #contactForm{
+  	width: 100%;
+  }
   #copyright{
    width: 100%;
   }

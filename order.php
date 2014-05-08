@@ -30,7 +30,7 @@ if(isset($_POST['submit'])) {
 <div id="content">
   <h3>Order</h3>
   <div id="formDiv">
-    <form id="contactform" action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
+    <form id="contactForm" action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
       <label>Name</label>
       <input name="name" type="text"> <br>
       <label>E-mail</label>
