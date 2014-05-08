@@ -31,15 +31,15 @@ if(isset($_POST['submit'])) {
   <h3>Order</h3>
   <div id="formDiv">
     <form id="contactForm" action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
-      <label>Name</label>
-      <input name="name" type="text"> <br>
-      <label>E-mail</label>
-      <input name="email" type="email"><br>
-      <label>Phone</label>
-      <input name="phone" type="text"><br>
-      <label>Order</label>
-      <input id="orderbox" name="order" type="text"><br>
-      <label>Extra Notes/Comments:</label><br>
+      <label class="order">Name</label>
+      <input class="inputBox" name="name" type="text"> <br>
+      <label class="order">E-mail</label>
+      <input class="inputBox" name="email" type="email"><br>
+      <label class="order">Phone</label>
+      <input class="inputBox" name="phone" type="text"><br>
+      <label class="order">Order</label>
+      <input class="inputBox" id="orderbox" name="order" type="text"><br>
+      <label class="extra">Extra Notes/Comments:</label><br>
       <textarea cols="30" name="comment" rows="9"></textarea>
       <br>
       <input class="button" id="orderbutton" name="submit" type="submit" value="Place Order">

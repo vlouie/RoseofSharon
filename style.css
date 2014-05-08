@@ -479,6 +479,19 @@ a:hover.slidesjs-stop {
   .container {
 	width: auto
   }
+  .inputBox {
+    height: 2em;
+  }
+  .order {
+    width: 200px;
+  }
+  .extra {
+    width: 400px;
+  }
+  .button {
+    padding: 1em;
+    font-size: 2em;
+  }
   #body{
 	width: 100%;
   }
