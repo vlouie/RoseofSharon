@@ -342,6 +342,7 @@ button:active{
   text-align: center;
   padding-top:1em;
   font-size:11px;
+  margin-bottom:1em;
 }
 
 #slides {
@@ -476,6 +477,10 @@ a:hover.slidesjs-stop {
   	padding-left:0.5em;
 	padding-right:0.5em;
   }
+  textarea{
+  	font-size:24px;
+	margin-bottom:1em;
+  }
   .container {
 	width: auto
   }
@@ -526,7 +531,7 @@ a:hover.slidesjs-stop {
   	width: 100%;
   }
   #copyright{
-   width: 100%;
+   	width: 100%;
   }
 }
 

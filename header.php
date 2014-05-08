@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Rose of Sharon Floral Arts - floral arrangements for all occasions</title>
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width;height=device-height;">
 <meta name="description" content="Rose of Sharon Floral Arts is a Vancouver-based business specialized in floral arrangements for all occasions">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
