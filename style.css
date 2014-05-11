@@ -10,7 +10,8 @@ html{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; background: url('/img/green_dust_scratch.png') repeat;
-  background-color: #7feb61;
+  /*background-color: #7feb61;*/
+  background-color: #fff;
   background-size: 100% 100%;
 }
 
