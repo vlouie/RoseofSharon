@@ -26,7 +26,7 @@ function tablize ( element, callback ){
 function lightbox(id){
     var pageHeight = $(window).height();
     alert(pageHeight);
-    $('#modal > img').css({
+    $('#modal').css({
         "max-height": pageHeight * 0.6
     });
     $('#' + id  + ' > tbody > tr > td > img').on('click', function(){
@@ -34,7 +34,6 @@ function lightbox(id){
         $('#lightbox').show();
         $('body').css('overflow', 'hidden');
     });
-    alert($('#modal > img').css());
 }
 
 $('#lightbox').click(function(){
