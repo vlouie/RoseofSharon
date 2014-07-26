@@ -25,7 +25,6 @@ function tablize ( element, callback ){
 
 function lightbox(id){
     var pageHeight = $(window).height();
-    alert(pageHeight);
     $('#modal').css({
         "height": pageHeight * 0.8
     });
