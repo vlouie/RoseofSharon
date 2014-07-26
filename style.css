@@ -101,6 +101,7 @@ table > tbody > tr > td > img {
 
 #modal > img {
   box-shadow: rgba(0,0,0,0.3) 0 5px 3px;
+  height: 90%;
 }
 
 #pageview{

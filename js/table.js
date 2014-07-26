@@ -27,10 +27,7 @@ function lightbox(id){
     var pageHeight = $(window).height();
     alert(pageHeight);
     $('#modal').css({
-        "max-height": pageHeight * 0.6
-    });
-    $('#modal > img').css({
-        "height": pageHeight * 0.6
+        "height": pageHeight * 0.8
     });
     $('#' + id  + ' > tbody > tr > td > img').on('click', function(){
         $('#modal').html('<img src="/img/' + id + '/large_resize/' + this.getAttribute('data-id') + '.jpg" />');
