@@ -11,7 +11,7 @@ include('header.php');
 Click the picture for a better look!
 <p class="priceWarning"><b>Note:</b> Prices subject to change due to season and availability. Arrangements may differ from picture.</p>
 <h3>Special Order</h3>
-<table id="special_order" data-csv="special_order">
+<table class="productTable" id="special_order" data-csv="special_order">
   <tbody>
   </tbody>
 </table>

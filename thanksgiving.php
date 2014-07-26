@@ -11,7 +11,7 @@ include('header.php');
 Click the picture for a better look!
 <p class="priceWarning"><b>Note:</b> Prices subject to change due to season and availability. Arrangements may differ from picture.</p>
 <h3>Thanksgiving</h3>
-<table id="thanksgiving" data-csv="thanksgiving">
+<table class="productTable" id="thanksgiving" data-csv="thanksgiving">
   <tbody>
   </tbody>
 </table>

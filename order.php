@@ -12,10 +12,11 @@ if(isset($_POST['submit'])) {
   $email_field = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
   $phone_field = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
   $order_field = filter_var($_POST['order'], FILTER_SANITIZE_STRING);
+  $quantity_field = filter_var($_POST['quantity'], FILTER_SANITIZE_STRING);
   $comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
    
   //constructing the message
-  $body = " From: $name_field\n\n E-Mail: $email_field\n\n Phone: $phone_field\n\n  Order: $order_field\n\n Notes/Comments:\n\n $comment";
+  $body = " From: $name_field\n\n E-Mail: $email_field\n\n Phone: $phone_field\n\n  Order: $order_field\n\n Quantity: $quantity_field\n\n Notes/Comments:\n\n $comment";
    
   mail($to, $subject, $body);
    
@@ -39,12 +40,18 @@ if(isset($_POST['submit'])) {
       <input class="inputBox" name="phone" type="text"><br>
       <label class="order">Order</label>
       <input class="inputBox" id="orderbox" name="order" type="text"><br>
+      <label class="order">Quantity</label>
+      <input class="inputBox" name="quantity" type="text"><br>
       <label class="extra">Extra Notes/Comments:</label><br>
       <textarea cols="30" name="comment" rows="9"></textarea>
       <br>
       <input class="button" id="orderbutton" name="submit" type="submit" value="Place Order">
     </form>
-    <p id="orderWarning">Prices subject to change.</p>
+    <p id="orderWarning">
+      Prices subject to change.<br />
+      For enquiries, please call: (604) 783-1929<br />
+      Alternatively, you can email us at <a href="mailto:roseofsharonfloralarts@gmail.com">roseofsharonfloralarts@gmail.com</a>
+    </p>
   </div>
   <div id="orderImage">
   </div>
