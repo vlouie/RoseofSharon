@@ -9,7 +9,6 @@ $(document).ready(function(){
     }
 	var id = hash['id'].match(/[0-9]+/g);
 	var csv = hash['type'].match(/[a-z_]+/g);
-    alert('csv: ' + csv);
     $.get("../tables/" + csv + ".csv", function(data){
         var rowArray = data.split("\n");
         var entry;

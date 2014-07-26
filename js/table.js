@@ -24,6 +24,10 @@ function tablize ( element, callback ){
 }
 
 function lightbox(id){
+    var pageHeight = jQuery(window).height();
+    $('#modal > img').css({
+        "max-height": pageHeight * 0.6
+    });
     $('#' + id  + ' > tbody > tr > td > img').on('click', function(){
         $('#modal').html('<img src="/img/' + id + '/large_resize/' + this.getAttribute('data-id') + '.jpg" />');
         $('#lightbox').show();
