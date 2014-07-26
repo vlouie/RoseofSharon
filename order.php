@@ -6,7 +6,7 @@ if(isset($_POST['submit'])) {
   // TODO: customize
   $to = "v.louie91@gmail.com";
   $subject = "Rose of Sharon Order Request";
-   
+
   // data the visitor provided
   $name_field = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
   $email_field = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
@@ -14,15 +14,15 @@ if(isset($_POST['submit'])) {
   $order_field = filter_var($_POST['order'], FILTER_SANITIZE_STRING);
   $quantity_field = filter_var($_POST['quantity'], FILTER_SANITIZE_STRING);
   $comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
-   
+
   //constructing the message
   $body = " From: $name_field\n\n E-Mail: $email_field\n\n Phone: $phone_field\n\n  Order: $order_field\n\n Quantity: $quantity_field\n\n Notes/Comments:\n\n $comment";
-   
+
   mail($to, $subject, $body);
-   
+
   echo "<script>alert('Order successfully processed. You will hear back from us in the next few days.');</script>";
   // redirect to confirmation
-  header('Location: index.php');
+  //header('Location: index.php');
 } else {
   // show error message
 }
@@ -49,7 +49,7 @@ if(isset($_POST['submit'])) {
     </form>
     <p id="orderWarning">
       Prices subject to change.<br />
-      For enquiries, please call: (604) 783-1929<br />
+      For enquiries, please call: (604) 783 - 1929<br />
       Alternatively, you can email us at <a href="mailto:roseofsharonfloralarts@gmail.com">roseofsharonfloralarts@gmail.com</a>
     </p>
   </div>
