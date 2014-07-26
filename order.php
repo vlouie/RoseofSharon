@@ -21,10 +21,12 @@ if(isset($_POST['submit'])) {
   mail($to, $subject, $body);
 
   echo "<script>alert('Order successfully processed. You will hear back from us in the next few days.');</script>";
+  sleep(100);
   // redirect to confirmation
-  //header('Location: index.php');
+  header('Location: index.php');
 } else {
   // show error message
+  echo "<script>alert('Something went wrong with your order and it was not processed. Please try again later.');</script>";
 }
 ?>
 <script src="js/order.js" type="text/javascript"></script>

@@ -321,7 +321,7 @@ button:active{
   padding: 2em;
   background-color:#fff;
   /*box-shadow: rgba(0,0,0,0.3) 0 1px 8px;*/
-  min-height:600px;
+  min-height:400px;
   position:relative;
   z-index:5;
   left:220px;

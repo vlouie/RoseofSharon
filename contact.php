@@ -10,9 +10,9 @@ include('header.php');
   <p>
   No ideas? We will work with you to determine your personal style and familiarize you with various suitable and in-season flowers and colours. Together we wish to create the perfect floral design to make your event a success. We can't wait to speak with you and start creating.
   <p>
-  <b>Contact:</b> Sandy Chang, CAFA<br />
+  <b>Contact:</b> Sandy Chang, <a href="http://cafachat.com/CAFAchat/Welcome.html" target="_blank">CAFA</a><br />
   <b>Email:</b> <a href="mailto:roseofsharonfloralarts@gmail.com">roseofsharonfloralarts@gmail.com</a><br />
-  <b>Phone:</b> (604) 783-1929
+  <b>Phone:</b> (604) 783 - 1929
   </div>
   <div id="contactPhoto">
     <img src="img/sandy.jpg" />
