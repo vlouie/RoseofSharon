@@ -9,6 +9,7 @@ $(document).ready(function(){
     }
 	var id = hash['id'].match(/[0-9]+/g);
 	var csv = hash['type'].match(/[a-z]+/g);
+    alert('csv: ' + csv);
     $.get("../tables/" + csv + ".csv", function(data){
         var rowArray = data.split("\n");
         var entry;
@@ -18,7 +19,7 @@ $(document).ready(function(){
                 if (parseInt(entry[3]) == parseInt(id[0])){
                   $('#orderbox').val(entry[0]);
                     jQuery('<b />', {
-                        text: 'Your Order' 
+                        text: 'Your Order'
                     }).appendTo('#orderImage');
                     jQuery('<br />').appendTo('#orderImage');
                     jQuery('<img />', {
