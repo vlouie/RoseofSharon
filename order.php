@@ -26,7 +26,7 @@ if(isset($_POST['submit'])) {
   header('Location: index.php');
 } else {
   // show error message
-  echo "<script>alert('Something went wrong with your order and it was not processed. Please try again later.');</script>";
+  //echo "<script>alert('Something went wrong with your order and it was not processed. Please try again later.');</script>";
 }
 ?>
 <script src="js/order.js" type="text/javascript"></script>
