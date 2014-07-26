@@ -8,9 +8,8 @@ $(document).ready(function(){
       hash[split3[0]] = split3[1];
     }
 	var id = hash['id'].match(/[0-9]+/g);
-	var csv = hash['type'].match(/[a-z]+/g);
+	var csv = hash['type'].match(/[a-z_]+/g);
     alert('csv: ' + csv);
-    console.log('csv: ' + csv);
     $.get("../tables/" + csv + ".csv", function(data){
         var rowArray = data.split("\n");
         var entry;
