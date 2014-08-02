@@ -1,6 +1,6 @@
 <?php
 include('header.php');
-require 'PHPMailerAutoload.php';
+require 'class.phpmailer.php';
 ?>
 <?php
 
