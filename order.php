@@ -5,14 +5,6 @@ require 'phpmailer/class.phpmailer.php';
 <?php
 
 if(isset($_POST['submit'])) {
-  // data the visitor provided
-  $name_field = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-  $email_field = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
-  $phone_field = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
-  $order_field = filter_var($_POST['order'], FILTER_SANITIZE_STRING);
-  $quantity_field = filter_var($_POST['quantity'], FILTER_SANITIZE_STRING);
-  $comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
-
   // PHP Mailer using Mandrill SMTP
   $mail = new PHPMailer;
   $mail->isSMTP();                                      // Set mailer to use SMTP
@@ -28,6 +20,14 @@ if(isset($_POST['submit'])) {
   $mail->addAddress('v.louie91@gmail.com', 'Rose of Sharon Floral Arts');     // Add a recipient
 
   $mail->IsHTML(true);
+
+  // data the visitor provided
+  $name_field = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+  $email_field = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+  $phone_field = filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT);
+  $order_field = filter_var($_POST['order'], FILTER_SANITIZE_STRING);
+  $quantity_field = filter_var($_POST['quantity'], FILTER_SANITIZE_STRING);
+  $comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
 
   $mail->Subject = 'Rose of Sharon Order Request';
   $mail->Body    = "<b>From:</b> $name_field\n\n
@@ -49,7 +49,7 @@ if(isset($_POST['submit'])) {
   }
 } else {
   // show error message
-  echo "<script>alert('Something went wrong with your order and it was not processed. Please try again later.');</script>";
+  //echo "<script>alert('Something went wrong with your order and it was not processed. Please try again later.');</script>";
 }
 ?>
 <script src="js/order.js" type="text/javascript"></script>
