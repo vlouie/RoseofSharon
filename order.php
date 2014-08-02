@@ -1,6 +1,7 @@
 <?php
 include('header.php');
 require 'phpmailer/class.phpmailer.php';
+Dotenv::load(__DIR__);
 ?>
 <?php
 
@@ -10,8 +11,8 @@ if(isset($_POST['submit'])) {
   $mail->Host = 'smtp.mandrillapp.com';  // Specify main and backup SMTP servers
   $mail->Port = 587;
   $mail->SMTPAuth = true;                               // Enable SMTP authentication
-  $mail->Username = 'MANDRILL_USERNAME';                 // SMTP username
-  $mail->Password = 'MANDRILL_APIKEY';                           // SMTP password
+  $mail->Username = getenv('MANDRILL_USERNAME');                 // SMTP username
+  $mail->Password = getenv('MANDRILL_APIKEY');                           // SMTP password
   $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
   $mail->From = 'v.louie91@meow.com';
