@@ -42,8 +42,9 @@ if(isset($_POST['submit'])) {
     echo "<script>alert('Message could not be sent.')</script>";
     //echo 'Mailer Error: ' . $mail->ErrorInfo;
   } else {
+    echo "Message sent successfully";
     echo "<script>alert('Order successfully processed. You will hear back from us in the next few days.');</script>";
-    sleep(100);
+    //sleep(100);
     // redirect to confirmation
     header('Location: index.php');
   }
