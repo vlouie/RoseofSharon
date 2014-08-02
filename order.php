@@ -1,6 +1,6 @@
 <?php
 include('header.php');
-require 'class.phpmailer.php';
+require '/vendor/phpmailer/phpmailer/class.phpmailer.php';
 ?>
 <?php
 
