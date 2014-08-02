@@ -12,7 +12,7 @@ include('header.php');
   <p>
   <b>Contact:</b> Sandy Chang, <a href="http://cafachat.com/CAFAchat/Welcome.html" target="_blank">CAFA</a><br />
   <b>Email:</b> <a href="mailto:roseofsharonfloralarts@gmail.com">roseofsharonfloralarts@gmail.com</a><br />
-  <b>Phone:</b> (604) 783 - 1929
+  <b>Phone:</b> (604) 783-1929
   </div>
   <div id="contactPhoto">
     <img src="img/sandy.jpg" />
