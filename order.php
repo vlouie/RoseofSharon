@@ -14,7 +14,7 @@ if(isset($_POST['submit'])) {
   $mail->Password = 'MANDRILL_APIKEY';                           // SMTP password
   $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
-  $mail->From = 'from@example.com';
+  $mail->From = 'v.louie91@meow.com';
   $mail->FromName = 'Mailer';
   $mail->addAddress('v.louie91@gmail.com', 'VL');     // Add a recipient
 
@@ -50,7 +50,7 @@ if(isset($_POST['submit'])) {
   //echo "<script>alert('Order successfully processed. You will hear back from us in the next few days.');</script>";
   //sleep(100);
   // redirect to confirmation
-  header('Location: index.php');
+  //header('Location: index.php');
 } else {
   // show error message
   //echo "<script>alert('Something went wrong with your order and it was not processed. Please try again later.');</script>";
