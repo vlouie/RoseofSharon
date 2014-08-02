@@ -1,7 +1,6 @@
 <?php
 include('header.php');
 require 'phpmailer/class.phpmailer.php';
-Dotenv::load(__DIR__);
 ?>
 <?php
 
