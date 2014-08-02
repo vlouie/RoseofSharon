@@ -30,12 +30,12 @@ if(isset($_POST['submit'])) {
   $comment = filter_var($_POST['comment'], FILTER_SANITIZE_STRING);
 
   $mail->Subject = 'Rose of Sharon Order Request';
-  $mail->Body    = "<b>From:</b> $name_field\n\n
-                    <b>E-Mail:</b> $email_field\n\n
-                    <b>Phone:</b> $phone_field\n\n
-                    <b>Order:</b> $order_field\n\n
-                    <b>Quantity:</b> $quantity_field\n\n
-                    <b>Notes/Comments:</b>\n\n $comment";
+  $mail->Body    = "<b>From:</b> $name_field<br />
+                    <b>E-Mail:</b> $email_field<br />
+                    <b>Phone:</b> $phone_field<br />
+                    <b>Order:</b> $order_field<br />
+                    <b>Quantity:</b> $quantity_field<br />
+                    <b>Notes/Comments:</b> $comment";
   $mail->AltBody = "From: $name_field\n\n E-Mail: $email_field\n\n Phone: $phone_field\n\n  Order: $order_field\n\n Quantity: $quantity_field\n\n Notes/Comments:\n\n $comment";
 
   if(!$mail->send()) {
