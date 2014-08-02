@@ -1,19 +1,25 @@
 Notes to self:
 =============
+[ ] wait on email for Weddings
 [x] fix order preview for multi-word categories (high style, etc.)
-[ ] wtf is wrong with order form??
+[x] wtf is wrong with order form??
 --> heroku php won't allow it, see email
 [x] fix lightbox image size
 [ ] confirmation/success page for orders
 [ ] content
 --> index
+- buttons for every section
+- redo slideshow
 --> order success page
 --> weddings
+- video
+- pictures
+--> all product pages
+- banner
 [ ] add loader images?
 --> to table retrieval GET?
 --> to large resize lightbox?
 --> on success hide it? on click, show it?
-[ ] wait on email for Weddings
 
 Possible future endeavours:
 ==========================
