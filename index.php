@@ -51,7 +51,7 @@ $(window).load(function() {
 	<!--<div class="container">
 	</div>-->
 	<h3>Welcome</h3>
-  <table>
+  <table id="homeNav">
     <tr>
       <td>
         <a href="/christmas.php">
