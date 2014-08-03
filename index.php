@@ -79,7 +79,7 @@ $(window).load(function() {
         </a>
       </td>
       <td>
-        <a href="/weddings.php">
+        <a href="/wedding.php">
           <div id="weddingsButton">Weddings</div>
         </a>
       </td>
