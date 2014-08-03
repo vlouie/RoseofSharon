@@ -197,6 +197,50 @@ table > tbody > tr > td > img {
   margin-top:1em;
 }
 
+#christmasButton{
+	background-image: url('/img/christmas/small_resize/20101201489.jpg');
+}
+
+#easterButton{
+	background-image: url('/img/special_order/small_resize/201107132882.jpg');
+}
+
+#mothersButton{
+	background-image: url('/img/mothers_day/small_resize/201104301535.jpg');
+}
+
+#thanksgivingButton{
+	background-image: url('/img/thanksgiving/small_resize/20101005051.jpg');
+}
+
+#valentinesButton{
+	background-image: url('/img/valentine/small_resize/20110203795-1.jpg');
+}
+
+#weddingsButton{
+	background-image: url('/img/thanksgiving/small_resize/20101005051.jpg');
+}
+
+#corsageButton{
+	background-image: url('/img/corsage/small_resize/DSCN4880.jpg');
+}
+
+#posyButton{
+	background-image: url('/img/posy/small_resize/201104271499.jpg');
+}
+
+#highstyleButton{
+	background-image: url('/img/high_style/small_resize/201104271484.jpg');
+}
+
+#eventButton{
+	background-image: url('/img/event/small_resize/DSCN4081.jpg');
+}
+
+#specialButton{
+	background-image: url('/img/special_order/small_resize/201107132882.jpg');
+}
+
 #formDiv{
   float:left;
 }
@@ -329,8 +373,12 @@ button:active{
 }
 
 #content h3{
-  border-bottom: 1px solid #000;
+  border: 1px solid #000;
   margin-top:3px;
+  padding: 0.5em;
+  font-family: 'Dawning of a New Day', cursive;
+  font-weight: bold;
+  font-size: 36pt;
 }
 
 #content h1{
