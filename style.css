@@ -199,101 +199,46 @@ table > tbody > tr > td > img {
 
 #christmasButton{
 	background-image: url('/img/christmas/small_resize/20101201489.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #easterButton{
 	background-image: url('/img/special_order/small_resize/201107132882.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #mothersButton{
 	background-image: url('/img/mothers_day/small_resize/201104301535.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #thanksgivingButton{
 	background-image: url('/img/thanksgiving/small_resize/20101005051.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #valentinesButton{
 	background-image: url('/img/valentine/small_resize/20110203795-1.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #weddingsButton{
 	background-image: url('/img/thanksgiving/small_resize/20101005051.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #corsageButton{
 	background-image: url('/img/corsage/small_resize/DSCN4880.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #posyButton{
 	background-image: url('/img/posy/small_resize/201104271499.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #highstyleButton{
 	background-image: url('/img/high_style/small_resize/201104271484.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #eventButton{
 	background-image: url('/img/event/small_resize/DSCN4081.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #specialButton{
 	background-image: url('/img/special_order/small_resize/201107132882.jpg');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 100px;
-	vertical-align: middle;
 }
 
 #formDiv{
@@ -448,6 +393,18 @@ button:active{
   opacity:0.67;
   padding-left:1em;
   padding-right:1em;
+}
+
+.homeButtons{
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 120px;
+	vertical-align: middle;
+  font-family: 'Dawning of a New Day', cursive;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .priceWarning{

@@ -55,59 +55,59 @@ $(window).load(function() {
     <tr>
       <td>
         <a href="/christmas.php">
-          <div id="christmasButton">Christmas</div>
+          <div id="christmasButton" class="homeButtons">Christmas</div>
         </a>
       </td>
       <td>
         <a href="/easter.php">
-          <div id="easterButton">Easter</div>
+          <div id="easterButton" class="homeButtons">Easter</div>
         </a>
       </td>
       <td>
         <a href="/mothers_day.php">
-          <div id="mothersButton">Mother's Day</div>
+          <div id="mothersButton" class="homeButtons">Mother's Day</div>
         </a>
       </td>
       <td>
         <a href="/thanksgiving.php">
-          <div id="thanksgivingButton">Thanksgiving</div>
+          <div id="thanksgivingButton" class="homeButtons">Thanksgiving</div>
         </a>
       </td>
       <td>
         <a href="/valentines.php">
-          <div id="valentinesButton">Valentine's</div>
+          <div id="valentinesButton" class="homeButtons">Valentine's</div>
         </a>
       </td>
       <td>
         <a href="/wedding.php">
-          <div id="weddingsButton">Weddings</div>
+          <div id="weddingsButton" class="homeButtons">Weddings</div>
         </a>
       </td>
     </tr>
     <tr>
       <td>
         <a href="/corsage.php">
-          <div id="corsageButton">Corsages</div>
+          <div id="corsageButton" class="homeButtons">Corsages</div>
         </a>
       </td>
       <td>
         <a href="/posy.php">
-          <div id="posyButton">Posies</div>
+          <div id="posyButton" class="homeButtons">Posies</div>
         </a>
       </td>
       <td>
         <a href="/high_style.php">
-          <div id="highstyleButton">High Style</div>
+          <div id="highstyleButton" class="homeButtons">High Style</div>
         </a>
       </td>
       <td>
         <a href="/event.php">
-          <div id="eventButton">Events</div>
+          <div id="eventButton" class="homeButtons">Events</div>
         </a>
       </td>
       <td>
         <a href="/special_order.php">
-          <div id="specialButton">Special Order</div>
+          <div id="specialButton" class="homeButtons">Special Order</div>
         </a>
       </td>
     </tr>
