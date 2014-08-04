@@ -50,7 +50,6 @@ $(window).load(function() {
   </div>
 	<!--<div class="container">
 	</div>-->
-	<h3>Welcome</h3>
   <table id="homeNav">
     <tr>
       <td>

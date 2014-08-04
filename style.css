@@ -201,6 +201,66 @@ table > tbody > tr > td > img {
   padding-left: 0;
 }
 
+#aboutBanner{
+  background-image: url('/img/banners/banner11.jpg');
+}
+
+#christmasBanner{
+  background-image: url('/img/banners/banner04.jpg');
+}
+
+#contactBanner{
+  background-image: url('/img/banners/banner16.jpg');
+}
+
+#corsageBanner{
+  background-image: url('/img/banners/banner06.jpg');
+}
+
+#easterBanner{
+  background-image: url('/img/banners/banner01.jpg');
+}
+
+#eventBanner{
+  background-image: url('/img/banners/banner07.jpg');
+}
+
+#highBanner{
+  background-image: url('/img/banners/banner12.jpg');
+}
+
+#holidaysBanner{
+  background-image: url('/img/banners/banner03.jpg');
+}
+
+#mothersBanner{
+  background-image: url('/img/banners/banner02.jpg');
+}
+
+#orderBanner{
+  background-image: url('/img/banners/banner08.jpg');
+}
+
+#posyBanner{
+  background-image: url('/img/banners/banner15.jpg');
+}
+
+#specialBanner{
+  background-image: url('/img/banners/banner14.jpg');
+}
+
+#thanksgivingBanner{
+  background-image: url('/img/banners/banner09.jpg');
+}
+
+#valentinesBanner{
+  background-image: url('/img/banners/banner05.jpg');
+}
+
+#weddingBanner{
+  background-image: url('/img/banners/banner10.jpg');
+}
+
 #christmasButton{
 	background-image: url('/img/christmas/small_resize/20101201489.jpg');
 }
@@ -379,6 +439,7 @@ button:active{
 #content h3{
   border: 1px solid #000;
   margin-top:3px;
+  margin-bottom: 0;
   padding: 0.5em;
   font-family: 'Dawning of a New Day', cursive;
   font-weight: bold;

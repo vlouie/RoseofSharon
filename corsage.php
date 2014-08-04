@@ -8,7 +8,7 @@ include('header.php');
   });
 </script>
 <div id="content">
-<h3>Corsages</h3>
+<h3 id="corsageBanner">Corsages</h3>
 <p class="priceWarning"><b>Note:</b> Prices subject to change due to season and availability. Arrangements may differ from picture.</p>
 <table class="productTable" id="corsage" data-csv="corsage">
   <tbody>

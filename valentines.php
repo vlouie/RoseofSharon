@@ -8,7 +8,7 @@ include('header.php');
   });
 </script>
 <div id="content">
-<h3>Valentine's Day</h3>
+<h3 id="valentinesBanner">Valentine's Day</h3>
 <p class="priceWarning"><b>Note:</b> Prices subject to change due to season and availability. Arrangements may differ from picture.</p>
 <table class="productTable" id="valentine" data-csv="valentine">
   <tbody>

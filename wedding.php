@@ -8,8 +8,8 @@ include('header.php');
   });
 </script>
 <div id="content">
-<h3>Weddings</h3>
-<!-- insert partial image 
+<h3 id="weddingBanner">Weddings</h3>
+<!-- insert partial image
 <table id="wedding" data-csv="wedding">
   <tbody>
   </tbody>

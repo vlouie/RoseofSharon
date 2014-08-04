@@ -52,7 +52,7 @@ if(isset($_POST['submit'])) {
 ?>
 <script src="js/order.js" type="text/javascript"></script>
 <div id="content">
-  <h3>Order</h3>
+  <h3 id="orderBanner">Order</h3>
   <div id="formDiv">
     <form id="contactForm" action="<?php echo $_SERVER['PHP_SELF']?>" method="POST">
       <label class="order">Name</label>

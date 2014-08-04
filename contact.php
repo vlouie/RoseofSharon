@@ -2,7 +2,7 @@
 include('header.php');
 ?>
 <div id="content">
-  <h3>Contact</h3>
+  <h3 id="contactBanner">Contact</h3>
   <div id="contactText">
   We understand that weddings can be expensive and stressful, but with <b><i>Rose of Sharon Floral Arts</b></i>, we put special attention into each and every floral arrangement to ensure that your wedding day is as perfect as you've always imagined.
   <p>
