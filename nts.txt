@@ -8,14 +8,14 @@ Notes to self:
 [ ] confirmation/success page for orders
 [ ] content
 --> index
-- buttons for every section
-- redo slideshow
+x buttons for every section
+- redo slideshow (fix slide 7's size)
 --> order success page
 --> weddings
 - video
 - pictures
 --> all product pages
-- banner
+x banner
 [ ] add loader images?
 --> to table retrieval GET?
 --> to large resize lightbox?

@@ -375,10 +375,11 @@ button:active{
 }
 
 #sidenav h3{
-  padding-left:1em;
+  padding-left: 1em;
   background: #123123;
-  color:#fff;
-  margin-top:0;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top:0.2em;
   padding-bottom:0.2em;
   border-radius: 6px 6px 0px 0px;
@@ -438,7 +439,6 @@ button:active{
 #content h3{
   border: 1px solid #000;
   margin-top:3px;
-  margin-bottom: 0;
   padding: 0.5em;
   font-family: 'Dawning of a New Day', cursive;
   font-weight: bold;
