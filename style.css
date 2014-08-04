@@ -379,7 +379,6 @@ button:active{
   background: #123123;
   color:#fff;
   margin-top:0;
-  margin-bottom:0;
   padding-top:0.2em;
   padding-bottom:0.2em;
   border-radius: 6px 6px 0px 0px;
@@ -478,6 +477,7 @@ button:active{
   color: red;
   text-align: center;
   padding: 1em;
+  margin-top: 0;
 }
 
 .productTable img:hover{
