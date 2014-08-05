@@ -9,7 +9,7 @@ Notes to self:
 [ ] content
 --> index
 x buttons for every section
-- redo slideshow (fix slide 7's size)
+x redo slideshow (fix slide 7's size)
 --> order success page
 --> weddings
 - video
