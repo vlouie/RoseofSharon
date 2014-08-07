@@ -1,9 +1,9 @@
 Notes to self:
 =============
+[ ] put in more accurate image for homepage wedding button
 [ ] wait on email for Weddings
 [x] fix order preview for multi-word categories (high style, etc.)
 [x] wtf is wrong with order form??
---> heroku php won't allow it, see email
 [x] fix lightbox image size
 [ ] confirmation/success page for orders
 [ ] content
@@ -11,17 +11,18 @@ Notes to self:
 x buttons for every section
 x redo slideshow (fix slide 7's size)
 --> order success page
+- create it
 --> weddings
-- video
-- pictures
+x video
+x pictures
 --> all product pages
 x banner
-[ ] add loader images?
---> to table retrieval GET?
---> to large resize lightbox?
---> on success hide it? on click, show it?
 
 Possible future endeavours:
 ==========================
 [ ] SQL database (only if there are a great number of products & there is a schema that makes sense)
 [ ] PHP shopping cart for products (depends on userbase and number of products; not sure if nature of product lends itself to this)
+[ ] add loader images?
+--> to table retrieval GET?
+--> to large resize lightbox?
+--> on success hide it? on click, show it?
