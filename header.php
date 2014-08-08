@@ -7,6 +7,7 @@
 <meta name="description" content="Rose of Sharon Floral Arts is a Vancouver-based business specialized in floral arrangements for all occasions">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="nivo-slider.css" type="text/css" />
 <link rel="stylesheet" href="themes/default/default.css" type="text/css" />
