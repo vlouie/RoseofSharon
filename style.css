@@ -286,7 +286,7 @@ h4 {
 }
 
 #weddingsButton{
-	background-image: url('/img/thanksgiving/small_resize/20101005051.jpg');
+	background-image: url('/img/wedding/bouquet_focus.png');
 }
 
 #corsageButton{
@@ -494,7 +494,7 @@ button:active{
 }
 
 .wedding-column{
-	width: 50%;
+	width: 33%;
 	float: left;
 }
 
