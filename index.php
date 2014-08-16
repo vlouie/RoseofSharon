@@ -13,24 +13,6 @@ $(window).load(function() {
     });
 });
 </script>
-
-<!--
-<script src="js/jquery.slides.min.js"></script>
- <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 600,
-        height: 450,
-        play: {
-          active: true,
-          auto: true,
-          interval: 4000,
-          swap: true
-        }
-      });
-    });
-  </script>
--->
 <!-- Content here -->
 <div id="content">
   <h1>Rose of Sharon Floral Arts</h1>
@@ -48,8 +30,6 @@ $(window).load(function() {
       <img src="img/slide09.jpg" alt="" />
     </div>
   </div>
-	<!--<div class="container">
-	</div>-->
   <table id="homeNav">
     <tr>
       <td>

@@ -26,7 +26,7 @@ body{
 
 header{
   margin: auto;
-  width:75%;
+  width:85%;
 }
 
 a{
@@ -84,7 +84,7 @@ h4 {
   position:absolute;
   z-index:0;
   left:-80px;
-  top:190px;
+  top:60px;
   zoom: 90%;
 }
 
@@ -451,6 +451,9 @@ button:active{
   text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
   background-size: cover;
   border-radius: 5px;
+  animation: bannerBackground 40s linear infinite;
+  -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+  animation-direction: alternate;
 }
 
 #content h1{
@@ -623,6 +626,10 @@ a:hover.slidesjs-stop {
   margin: 0 auto;
   border: 4px solid #eee;
   border-radius: 4px;
+}
+
+@keyframes bannerBackground {
+	to { background-position: 0 100%; }
 }
 
 /* For tablets & smart phones */

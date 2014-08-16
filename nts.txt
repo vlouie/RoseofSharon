@@ -1,6 +1,13 @@
 Notes to self:
 =============
-[ ] put in more accurate image for homepage wedding button
+[ ] check iPad picture
+[ ] center logo above menu
+[ ] mini "Rose of Sharon" bottom right contact page
+[ ] seal (watermark = pink, small, right bottom corner)
+[ ] another watermark (below menu)
+[ ] move watermark up behind menu
+[ ] animate banners
+[x] put in more accurate image for homepage wedding button
 [ ] wait on email for Weddings
 [x] fix order preview for multi-word categories (high style, etc.)
 [x] wtf is wrong with order form??
