@@ -14,7 +14,6 @@ include('header.php');
   <tbody>
   </tbody>
 </table>
-</div>
 <?php
 include('footer.php');
 ?>

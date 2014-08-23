@@ -11,7 +11,6 @@ We arrange flowers for a variety of occasions, including several holidays.  Arra
   <li><a href="thanksgiving.php">Thanksgiving</a>
   <li><a href="valentines.php">Valentine's Day</a>
 </ul>
-</div>
 <?php
 include('footer.php');
 ?>

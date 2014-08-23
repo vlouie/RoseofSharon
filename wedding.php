@@ -25,7 +25,6 @@ include('header.php');
   <sub>
     Photo credit: <a href="http://videowedding.ca/" target="_blank">VideoWeddingProductions</a> (<a href="http://v.youku.com/v_show/id_XNjIxMTI0MDQ0.html" target="_blank">Source</a>)
   </sub>
-</div>
 <?php
 include('footer.php');
 ?>

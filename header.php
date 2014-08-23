@@ -41,8 +41,6 @@
 	</div>
 </header>
 <div id="body">
-<div>
-</div>
 <nav>
 	<div id="navflower">
 		<img id="flower-1" src="img/nav-flower.png" />
