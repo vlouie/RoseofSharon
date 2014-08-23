@@ -42,7 +42,6 @@
 </header>
 <div id="body">
 <div>
-  <img id="seal" src="img/seal-flower.png" />
 </div>
 <nav>
 	<div id="navflower">

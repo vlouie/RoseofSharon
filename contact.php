@@ -18,6 +18,7 @@ include('header.php');
     <img src="img/sandy.jpg" />
   </div>
   <img id="signature" src="img/logo_small.png" />
+  <img id="seal" src="img/seal-flower.png" />
 </div>
 <?php
 include('footer.php');

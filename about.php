@@ -18,6 +18,7 @@ Located in Vancouver, BC, certified <a href="http://cafachat.com/CAFAchat/Welcom
 <li>Requests for custom designs are welcome
 </ul>
 <b>-- all within budget</b>
+<img id="seal" src="img/seal-flower.png">
 </div>
 <?php
 include('footer.php');
