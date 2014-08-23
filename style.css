@@ -97,7 +97,9 @@ h4 {
 
 #signature {
   zoom: 90%;
-  float: right;
+  position: absolute;
+  bottom: 0px;
+  right: 160px;
 }
 
 #seal {
