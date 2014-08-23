@@ -42,12 +42,12 @@
 </header>
 <div id="body">
 <div>
-  <img src="img/seal-flower.png" />
+  <img id="seal" src="img/seal-flower.png" />
 </div>
 <nav>
 	<div id="navflower">
-		<img src="img/nav-flower.png" />
-		<img src="img/nav-flower-1.png" />
+		<img id="flower-1" src="img/nav-flower.png" />
+		<img id="flower-2" src="img/nav-flower-1.png" />
 	</div>
 <!-- Vertical navigation for products -->
 	<div id="sidenav">

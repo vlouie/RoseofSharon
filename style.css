@@ -19,7 +19,6 @@ body{
   font-family: Helvetica, 'Myriad', Arial, sans-serif;
   font-size: 17px;
   margin: 0;
-  /*background: url('/img/textured_paper.png') repeat;*/
   width: 100%;
   height: 100%;
 }
@@ -83,9 +82,25 @@ h4 {
 #navflower{
   position:absolute;
   z-index:0;
-  left:-80px;
-  top:60px;
+  left:-54px;
+  top:91px;
+}
+
+#flower-1{
+  zoom: 80%;
+}
+
+#flower-2{
   zoom: 90%;
+}
+
+#signature {
+  zoom: 90%;
+  float: right;
+}
+
+#seal {
+  position: absolute;
 }
 
 #container {

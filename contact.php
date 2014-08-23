@@ -17,7 +17,7 @@ include('header.php');
   <div id="contactPhoto">
     <img src="img/sandy.jpg" />
   </div>
-  <img src="img/logo_small.png" />
+  <img id="signature" src="img/logo_small.png" />
 </div>
 <?php
 include('footer.php');
