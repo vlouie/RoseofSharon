@@ -91,8 +91,6 @@ $(window).load(function() {
       </td>
     </tr>
   </table>
-  <img id="seal" src="img/seal-flower.png" />
-</div>
 <?php
 include('footer.php');
 ?>

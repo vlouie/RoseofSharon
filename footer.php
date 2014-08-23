@@ -1,3 +1,5 @@
+  <img id="seal" src="img/seal-flower.png" />
+</div>
 <div id="copyright">
 &copy;2013 Victoria Louie
 </div>
