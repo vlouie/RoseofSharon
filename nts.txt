@@ -2,13 +2,15 @@ Notes to self:
 =============
 [ ] check iPad picture for positioning
 [x] center logo above menu
-[ ] mini "Rose of Sharon" bottom right contact page (signature)
-[ ] seal (watermark = pink, small, right bottom corner)
-[ ] another watermark (below menu)
+[x] mini "Rose of Sharon" bottom right contact page (signature)
+[x] seal (watermark = pink, small, right bottom corner)
+[x] another watermark (below menu)
 [x] move watermark up behind menu
 [x] animate banners
 [x] put in more accurate image for homepage wedding button
-[ ] wait on email for Weddings
+[ ] Wedding photos
+--> arrange them
+--> put them in marquees???
 [x] fix order preview for multi-word categories (high style, etc.)
 [x] wtf is wrong with order form??
 [x] fix lightbox image size
@@ -16,8 +18,6 @@ Notes to self:
 [ ] content
 --> order success page
 - create it
---> weddings
-- more pictures
 
 Possible future endeavours:
 ==========================
