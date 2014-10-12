@@ -43,7 +43,7 @@
 <div id="body">
 <nav>
 	<div id="navflower">
-		<img id="flower-1" src="img/nav-flower.png" />
+		<img id="flower-1" src="img/nav-flower.png" /><br />
 		<img id="flower-2" src="img/nav-flower-1.png" />
 	</div>
 <!-- Vertical navigation for products -->
