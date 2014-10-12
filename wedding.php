@@ -8,19 +8,19 @@ include('header.php');
 
   <h4>Abraham and Janet's Wedding (Sept 2013)</h4>
   <div class = "wedding-column">
-    <img class = "wedding-fitted" src="img/wedding/bouquet-bride02.png" />
+    <img class = "wedding-fitted" src="img/wedding/aj-wedding/bouquet-bride02.png" />
     <img class = "wedding-fitted" src="img/wedding/gifs/centerpieces.gif" />
-    <img class = "wedding-fitted" src="img/wedding/bouquet-bride01.png" />
+    <img class = "wedding-fitted" src="img/wedding/aj-wedding/bouquet-bride01.png" />
   </div>
   <div class = "wedding-column">
-    <img class = "wedding-fitted" src="img/wedding/centerpiece-close01.png" />
+    <img class = "wedding-fitted" src="img/wedding/aj-wedding/centerpiece-close01.png" />
     <img class = "wedding-fitted" src="img/wedding/aj-wedding/party-aj.png" />
-    <img class = "wedding-fitted" src="img/wedding/centerpiece-close02.png" />
+    <img class = "wedding-fitted" src="img/wedding/aj-wedding/centerpiece-close02.png" />
   </div>
   <div class = "wedding-column">
-    <img class = "wedding-fitted" src="img/wedding/bouquet-bridesmaid01.png" />
+    <img class = "wedding-fitted" src="img/wedding/aj-wedding/bouquet-bridesmaid01.png" />
     <img class = "wedding-fitted" src="img/wedding/gifs/corsages.gif" />
-    <img class = "wedding-fitted" src="img/wedding/table-close01.png" />
+    <img class = "wedding-fitted" src="img/wedding/aj-wedding/table-close01.png" />
   </div>
   <sub>
     Photo credit: <a href="http://videowedding.ca/" target="_blank">VideoWeddingProductions</a> (<a href="http://v.youku.com/v_show/id_XNjIxMTI0MDQ0.html" target="_blank">Source</a>)
