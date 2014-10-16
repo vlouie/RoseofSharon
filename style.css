@@ -306,7 +306,7 @@ h4 {
 }
 
 #weddingsButton{
-	background-image: url('/img/wedding/bouquet_focus.png');
+	background-image: url('/img/wedding/aj-wedding/bouquet-bride02.png');
 }
 
 #corsageButton{
@@ -492,10 +492,10 @@ button:active{
 }
 
 .homeButtons{
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	width: 130px;
-	height: 130px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
   font-family: 'Dawning of a New Day', cursive;
   border-radius: 5px;
   color: #fff;
